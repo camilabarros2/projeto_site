@@ -25,6 +25,7 @@ body{
 .topnav{
     overflow: hidden;
     background-color: #333;
+ 
 }
 
 .topnav a {
@@ -117,6 +118,7 @@ div.desc {
     padding: 6px;
     float: left;
     width: 24.99999%;
+    margin-top: 20px ;
 
 }
 
