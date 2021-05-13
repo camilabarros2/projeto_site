@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+
 .header {
     background-color: #f1f1f1;
     text-align: center;
@@ -10,7 +20,7 @@
     overflow: hidden;
 }
 
-.topnav a{
+.topnav a {
     text-decoration: none;
     float: left;
     display: block;
@@ -27,12 +37,13 @@
     color: black;
 }
 
-.column{
+.column {
     float: left;
-    width: 25%;
+    width: 33.33%;
     padding: 15px;
     background-color: coral;
 }
+
 
 .row::after{
     content: "";
@@ -44,4 +55,10 @@
     .column {
         width: 100%;
     }
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
 }
